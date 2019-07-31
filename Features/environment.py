@@ -6,6 +6,5 @@ def before_all(context):
     context.driver = Chrome(executable_path=path)
 
 
-
 def after_all(context):
     context.driver.close()
