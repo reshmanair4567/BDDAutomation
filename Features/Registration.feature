@@ -22,3 +22,4 @@ Feature:Verifying registration functionality
     And user enters confirm email address
     And User clicks on Register button
     Then User should be registered successfully
+
